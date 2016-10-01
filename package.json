@@ -1,0 +1,18 @@
+{
+  "name": "bitcoinbar",
+  "version": "0.0.1",
+  "description": "bitcoin desktop stats app",
+  "dependencies": {
+    "menubar": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron": "^1.4.0",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.0.1 --icon=Icon.icns",
+    "start": "electron ."
+  }
+}

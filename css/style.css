@@ -1,0 +1,15 @@
+h1{color:#930f0f;}
+h2{margin-bottom:0.1rem;color:#FF9900;}
+h3{margin-top:0.5rem;color:#FF9900;}
+
+body{font-size:18px;}
+
+#priceUsd{
+	font-size: 30px;
+	font-weight: 400;
+}
+#volume{
+	font-weight: 100;
+}
+.general-info{padding-bottom: 0px;}
+.bid-ask{padding-top: 0px;}

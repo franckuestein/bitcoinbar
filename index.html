@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>bitcoinbar</title>
+<link rel="stylesheet" href="css/spectre.min.css" />
+<link rel='stylesheet' href='css/typicons.min.css' />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+	    <div class="columns">
+	        <div class="column col-md-12"><h2>bitcoin <small class="label">stats</small></h2></div> 
+	    </div>
+	    <div class="columns">
+	    	<div class="column col-md-12 general-info">
+	        	<h3><span class="icon icon-link"></span><span class="typcn typcn-arrow-repeat"> current price</h3>
+        		<dl>
+        			<dt id="priceUsd"></dt>
+        			<dd id="volume"></dd>
+				</dl>
+	    	</div>
+	    </div>
+	    <hr>
+	    <div class="columns">
+			<div class="column col-md-12 bid-ask">
+				<table class="table table-striped table-hover">
+				    <thead>
+				        <tr>
+				            <th>Bid</th>
+				            <th>Ask</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr class="selected">
+				            <td id="bid"></td>
+				            <td id="ask"></td>
+				        </tr>
+				    </tbody>
+				</table>
+			</div>
+		</div>
+	    <span id="quit">Quit</span>
+	</div>
+</body>
+<script type="text/javascript" src="js/bitcoinbar.js"></script>
+</html>
