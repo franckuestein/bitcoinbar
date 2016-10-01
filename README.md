@@ -2,7 +2,7 @@
 
 Cross-platform Electron app based on [menubar](https://github.com/maxogden/menubar) to check bitcoin price from your system menubar. It currently takes BTC price from bitstamp public API, other exchanges will be added soon.
 
-![bitcoinbar screenshot](http://i.imgur.com/cG84IlQ.png)
+![bitcoinbar screenshot](http://i.imgur.com/sfcn9hF.png)
 
 ## To-do list
 - [x] First release source code

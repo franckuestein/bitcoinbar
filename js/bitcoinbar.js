@@ -11,7 +11,7 @@ var request = require('request');
 
 function priceStats(arr){
 	document.getElementById("priceUsd").innerHTML = "Last: "+arr['last']+" $";
-	document.getElementById("volume").innerHTML = "Volume 24h: "+arr['volume']+" $";
+	document.getElementById("volume").innerHTML = "Volume 24h: "+arr['volume']+" ฿";
 	document.getElementById("bid").innerHTML = arr['bid']+" $";
 	document.getElementById("ask").innerHTML = arr['ask']+" $";
 }
